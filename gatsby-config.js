@@ -1,10 +1,12 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/gatsby-config/
- */
-
-module.exports = {
-  /* Your site config here */
-  plugins: [],
-}
+plugins: [
+  {
+    resolve: "gatsby-plugin-sass",
+    options: {
+      useResolveUrlLoader: {
+        options: {
+          sourceMap: true, //default is false
+        },
+      },
+    },
+  },
+]
