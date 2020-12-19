@@ -1,6 +1,6 @@
 ---
 title: "React"
-data: "2019"
+date: "2019"
 ---
 
 This is sample text data

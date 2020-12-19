@@ -1,6 +1,6 @@
 ---
 title: "Gatsby"
-data: "2020"
+date: "2020"
 ---
 
 This is sample text data
